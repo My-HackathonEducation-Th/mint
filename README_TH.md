@@ -10,7 +10,7 @@
 
 ##### <div align="center">ภาษาไทย || [English](./README.md) 
 ##### <div align="center">คู่มือนี้ปรับเเต่งบางอย่างเพื่อให้ผู้ใช้ในท้องถิ่น เข้าถึงโดยง่าย Cr [ปรีดิ์ปราโมทย์](./Mint&Mu.md)
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7a36e517-07f9-439d-9734-f4f88660eae5/deploy-status)](https://app.netlify.com/sites/jiraphinya/deploys)
 
 - ✅ คะแนน พร้อมการผลิตในรายงานPageSpeed ​​Insights
 - ✅ บูรณาการกับTailwind CSSรองรับโหมด DarkและRTL
