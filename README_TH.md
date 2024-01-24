@@ -278,7 +278,7 @@ Initially created by [onWidget](https://onwidget.com) and maintained by a commun
 
 ## License
 
-**AstroWind** ด้รับใบอนุญาตภายใต้ใบอนุญาต MIT — ดู ไฟล์ [LICENSE](./LICENSE.md) ใบอนุญาต สำหรับรายละเอียด
+**AstroWind** ได้รับใบอนุญาตภายใต้ใบอนุญาต MIT — ดู ไฟล์ [LICENSE](./LICENSE.md) ใบอนุญาต สำหรับรายละเอียด
 
 
 
