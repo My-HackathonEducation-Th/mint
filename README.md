@@ -1,21 +1,27 @@
-# 🚀 AstroWind
+# 🚀 AstroWind by Jiraphinya
 
 <img src="https://raw.githubusercontent.com/onwidget/.github/main/resources/astrowind/lighthouse-score.png" align="right"
      alt="AstroWind Lighthouse Score" width="100" height="358">
 
-🌟 _Most *starred* & *forked* Astro theme in 2022 & 2023_. 🌟
+🌟 ธีม Astro ที่ติดดาวและแยกมากที่สุดในปี 2022 และ 2023 🌟
 
-**AstroWind** is a free and open-source template to make your website using **[Astro 4.0](https://astro.build/) + [Tailwind CSS](https://tailwindcss.com/)**. Ready to start a new project and designed taking into account web best practices.
+#### **AstroWind** คือ เทมเพลตโอเพ่นซอร์ส ฟรี สำหรับสร้างเว็บไซต์ของคุณโดยใช้ [Astro 4.0](https://astro.build/)+[Tailwind CSS](https://tailwindcss.com/). พร้อมสำหรับการเริ่มโครงการใหม่และออกแบบ โดยคำนึงถึงแนวทางปฏิบัติที่ดีที่สุดสำหรับเว็บ.
 
-- ✅ **Production-ready** scores in **PageSpeed Insights** reports.
-- ✅ Integration with **Tailwind CSS** supporting **Dark mode** and **_RTL_**.
-- ✅ **Fast and SEO friendly blog** with automatic **RSS feed**, **MDX** support, **Categories & Tags**, **Social Share**, ...
-- ✅ **Image Optimization** (using new **Astro Assets** and **Unpic** for Universal image CDN).
-- ✅ Generation of **project sitemap** based on your routes.
-- ✅ **Open Graph tags** for social media sharing.
-- ✅ **Analytics** built-in Google Analytics, and Splitbee integration.
+##### <div align="center">ภาษาไทย || [English](./README.md)
 
-<br>
+##### <div align="center">คู่มือนี้ปรับเเต่งบางอย่างเพื่อให้ผู้ใช้ในท้องถิ่น เข้าถึงโดยง่าย Cr [ปรีดิ์ปราโมทย์](./Mint&Mu.md)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7a36e517-07f9-439d-9734-f4f88660eae5/deploy-status)](https://app.netlify.com/sites/jiraphinya/deploys)
+
+- ✅ คะแนน พร้อมการผลิตในรายงานPageSpeed ​​Insights
+- ✅ บูรณาการกับTailwind CSSรองรับโหมด DarkและRTL
+- ✅ บล็อกที่รวดเร็วและเป็นมิตรกับ SEOพร้อมฟีด RSS อัตโนมัติ , รองรับMDX , หมวดหมู่และแท็ก , การแบ่งปันทางสังคม , ...
+- ✅ การเพิ่มประสิทธิภาพรูปภาพ (ใช้สินทรัพย์ Astro ใหม่ และUnpicสำหรับ Universal image CDN)
+- ✅ การสร้างแผนผังเว็บไซต์โครงการตามเส้นทางของคุณ
+- ✅ เปิดแท็กกราฟสำหรับการแชร์บนโซเชียลมีเดีย
+- ✅ Analyticsในตัว Google Analytics และการรวม Splitbee
+
+  <br>
 
 <img src="https://raw.githubusercontent.com/onwidget/.github/main/resources/astrowind/screenshot-astro4.png" alt="AstroWind Theme Screenshot">
 
@@ -50,19 +56,26 @@
 
 ## Demo
 
-📌 [https://astrowind.vercel.app/](https://astrowind.vercel.app/)
+📌 [https://astrowind.vercel.app](https://astrowind.vercel.app/)
+
+📌 [https://jiraphinya.netlify.app](https://jiraphinya.netlify.app/)
 
 <br>
 
 ## Getting started
 
-**AstroWind** tries to give you quick access to creating a website using [Astro 4.0](https://astro.build/) + [Tailwind CSS](https://tailwindcss.com/). It's a free theme which focuses on simplicity, good practices and high performance.
+)
 
-Very little vanilla javascript is used only to provide basic functionality so that each developer decides which framework (React, Vue, Svelte, Solid JS...) to use and how to approach their goals..
+<br>
 
-### Project structure
+## เริ่มต้นใช้งาน
 
-Inside **AstroWind** template, you'll see the following folders and files:
+AstroWind พยายามให้คุณเข้าถึงการสร้างเว็บไซต์ได้อย่างรวดเร็วโดยใช้Astro 4.0 + Tailwind CSS เป็นธีมฟรีที่เน้นความเรียบง่าย แนวทางปฏิบัติที่ดี และประสิทธิภาพสูง
+
+จาวาสคริปต์วานิลลาน้อยมากถูกใช้เพื่อให้ฟังก์ชันพื้นฐานเท่านั้น เพื่อให้นักพัฒนาแต่ละคนตัดสินใจว่าจะใช้เฟรมเวิร์กใด (React, Vue, Svelte, Solid JS...) และวิธีบรรลุเป้าหมาย
+
+โครงสร้างโครงการ
+ภายใน เทมเพลต AstroWind คุณจะเห็นโฟลเดอร์และไฟล์ต่อไปนี้:
 
 ```
 /
@@ -113,11 +126,11 @@ Inside **AstroWind** template, you'll see the following folders and files:
 └── ...
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Astro ค้นหา`.astro` or `.md` files in the `src/pages/` directory. แต่ละหน้าจะแสดงเป็นเส้นทางตามชื่อไฟล์
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+ไม่มีอะไรพิเศษเกี่ยวกับ `src/components/`, แต่นั่นคือสิ่งที่เราต้องการใส่ส่วนประกอบ Astro/React/Vue/Svelte/Preact
 
-Any static assets, like images, can be placed in the `public/` directory if they do not require any transformation or in the `assets/` directory if they are imported directly.
+สินทรัพย์คงที่ใดๆ เช่น รูปภาพ สามารถวางลงใน `public/` directory ได้หากไม่ต้องการการแปลงใดๆ หรือใน `assets/` directory หากนำเข้าโดยตรง
 
 [![Edit AstroWind on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://githubbox.com/onwidget/astrowind/tree/main) [![Open in Gitpod](https://svgshare.com/i/xdi.svg)](https://gitpod.io/?on=gitpod#https://github.com/onwidget/astrowind) [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/onwidget/astrowind)
 
@@ -127,23 +140,23 @@ Any static assets, like images, can be placed in the `public/` directory if they
 
 ### Commands
 
-All commands are run from the root of the project, from a terminal:
+คำสั่งทั้งหมดถูกรันจาก root of the project, จาก terminal:
 
-| Command               | Action                                             |
-| :-------------------- | :------------------------------------------------- |
-| `npm install`         | Installs dependencies                              |
-| `npm run dev`         | Starts local dev server at `localhost:3000`        |
-| `npm run build`       | Build your production site to `./dist/`            |
-| `npm run preview`     | Preview your build locally, before deploying       |
-| `npm run format`      | Format codes with Prettier                         |
-| `npm run lint:eslint` | Run Eslint                                         |
-| `npm run astro ...`   | Run CLI commands like `astro add`, `astro preview` |
+| Command               | Action                                               |
+| :-------------------- | :--------------------------------------------------- |
+| `npm install`         | ติดตั้งการพึ่งพา                                     |
+| `npm run dev`         | เริ่มเซิร์ฟเวอร์ dev ในเครื่องที่ `localhost:3000`   |
+| `npm run build`       | ไซต์การผลิตของคุณ มองหาที่ `./dist/`                 |
+| `npm run preview`     | ดูตัวอย่างงานสร้างของคุณภายในเครื่องก่อนที่จะปรับใช้ |
+| `npm run format`      | จัดรูปแบบโค้ดด้วย Prettier                           |
+| `npm run lint:eslint` | Run Eslint                                           |
+| `npm run astro ...`   | Run CLI commands like `astro add`, `astro preview`   |
 
 <br>
 
 ### Configuration
 
-Basic configuration file: `./src/config.yaml`
+พื้นฐาน configuration file: `./src/config.yaml`
 
 ```yaml
 site:
@@ -226,25 +239,25 @@ ui:
 
 #### Deploy to production (manual)
 
-You can create an optimized production build with:
+คุณสามารถสร้างบิลด์การผลิตที่ได้รับการปรับปรุงด้วย:
 
 ```shell
 npm run build
 ```
 
-Now, your website is ready to be deployed. All generated files are located at
-`dist` folder, which you can deploy the folder to any hosting service you
+ตอนนี้เว็บไซต์ของคุณพร้อมที่จะใช้งานแล้ว ไฟล์ที่สร้างขึ้นทั้งหมดจะอยู่ที่
+`dist` folder,ซึ่งคุณสามารถปรับใช้โฟลเดอร์กับบริการโฮสติ้งใดๆ ที่คุณต้องการได้
 prefer.
 
 #### Deploy to Netlify
 
-Clone this repository on own GitHub account and deploy to Netlify:
+โคลนพื้นที่เก็บข้อมูลนี้ในบัญชี GitHub ของตัวเองและปรับใช้กับ Netlify:
 
 [![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/onwidget/astrowind)
 
 #### Deploy to Vercel
 
-Clone this repository on own GitHub account and deploy to Vercel:
+โคลนพื้นที่เก็บข้อมูลนี้ในบัญชี GitHub ของตัวเองและปรับใช้กับ Vercel:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonwidget%2Fastrowind)
 
@@ -265,8 +278,7 @@ Clone this repository on own GitHub account and deploy to Vercel:
 
 ## Contributing
 
-If you have any idea, suggestions or find any bugs, feel free to open a discussion, an issue or create a pull request.
-That would be very useful for all of us and we would be happy to listen and take action.
+หากคุณมีความคิด ข้อเสนอแนะ หรือพบข้อบกพร่องใดๆ อย่าลังเลที่จะเปิดการสนทนา ปัญหา หรือสร้างคำขอดึงข้อมูล นั่นจะเป็นประโยชน์มากสำหรับเราทุกคน และเรายินดีที่จะรับฟังและดำเนินการ
 
 ## Acknowledgements
 
@@ -274,4 +286,4 @@ Initially created by [onWidget](https://onwidget.com) and maintained by a commun
 
 ## License
 
-**AstroWind** is licensed under the MIT license — see the [LICENSE](./LICENSE.md) file for details.
+**AstroWind** ได้รับใบอนุญาตภายใต้ใบอนุญาต MIT — ดู ไฟล์ [LICENSE](./LICENSE.md) ใบอนุญาต สำหรับรายละเอียด
